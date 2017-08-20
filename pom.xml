@@ -6,7 +6,8 @@
 
     <groupId>me.jordin</groupId>
     <artifactId>deltoid-tacnode-bundle</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
+
     <build>
         <plugins>
             <plugin>

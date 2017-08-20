@@ -47,7 +47,7 @@ public class RotationParser implements ArgumentParser<Rotation> {
 
     @Override
     public int minimumArgsRequired() {
-        return 3;
+        return includeRoll ? 3 : 2;
     }
 
     @Override
