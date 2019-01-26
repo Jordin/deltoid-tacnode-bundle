@@ -1,11 +1,7 @@
-package me.jordin.deltoid.tacnode.parsers;
+package in.jord.deltoid.tacnode.parsers;
 
-import me.jordin.tacnode.exceptions.InvalidTypeException;
+import in.jord.tacnode.exceptions.InvalidTypeException;
 
-/**
- * Created by Jordin on 8/11/2017.
- * Jordin is still best hacker.
- */
 public class RelativeCoordinateParser {
     private static final String RELATIVE_IDENTIFIER = "~";
 

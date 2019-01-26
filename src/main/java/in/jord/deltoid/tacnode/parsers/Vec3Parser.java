@@ -1,18 +1,14 @@
-package me.jordin.deltoid.tacnode.parsers;
+package in.jord.deltoid.tacnode.parsers;
 
-import me.jordin.deltoid.vector.Vec3;
-import me.jordin.tacnode.exceptions.InvalidTypeException;
-import me.jordin.tacnode.parsers.ArgumentParser;
-import me.jordin.tacnode.util.CommonSuggestions;
+import in.jord.deltoid.vector.Vec3;
+import in.jord.tacnode.exceptions.InvalidTypeException;
+import in.jord.tacnode.parsers.ArgumentParser;
+import in.jord.tacnode.util.CommonSuggestions;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Supplier;
 
-/**
- * Created by Jordin on 8/9/2017.
- * Jordin is still best hacker.
- */
 public class Vec3Parser implements ArgumentParser<Vec3> {
     private static final Supplier<Vec3> ORIGIN = () -> Vec3.ORIGIN;
 
