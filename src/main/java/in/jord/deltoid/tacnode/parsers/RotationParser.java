@@ -22,7 +22,6 @@ public class RotationParser implements ArgumentParser<Rotation> {
     public RotationParser(Supplier<Rotation> relativeTo) {
         this(relativeTo, false);
     }
-
     
     public RotationParser(boolean includeRoll) {
         this(ORIGIN, includeRoll);

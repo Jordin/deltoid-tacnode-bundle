@@ -1,11 +1,9 @@
 package in.jord.deltoid.tacnode.parsers;
 
-import in.jord.tacnode.exceptions.InvalidTypeException;
-
 public class RelativeCoordinateParser {
     private static final String RELATIVE_IDENTIFIER = "~";
 
-    public static double parseCoordinate(String given, double origin) throws InvalidTypeException {
+    public static double parseCoordinate(String given, double origin) {
         boolean relative = given.startsWith(RELATIVE_IDENTIFIER);
         if (relative) {
             given = given.replaceFirst(RELATIVE_IDENTIFIER, "");
