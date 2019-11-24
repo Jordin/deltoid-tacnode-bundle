@@ -6,7 +6,7 @@
 
     <groupId>me.jordin</groupId>
     <artifactId>deltoid-tacnode-bundle</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
 
     <build>
         <plugins>
@@ -32,12 +32,12 @@
         <dependency>
             <groupId>me.jordin</groupId>
             <artifactId>deltoid</artifactId>
-            <version>0.7.1</version>
+            <version>0.12.1</version>
         </dependency>
         <dependency>
             <groupId>me.jordin</groupId>
             <artifactId>tacnode</artifactId>
-            <version>0.5.0</version>
+            <version>0.6.1</version>
         </dependency>
     </dependencies>
 </project>
